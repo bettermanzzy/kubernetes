@@ -4,8 +4,9 @@
 参考文档：kubernetes官方网站的[kubeadm安装文档](https://kubernetes.io/docs/setup/independent/install-kubeadm/)
 以及[利用kubeadm创建集群](https://kubernetes.io/docs/setup/independent/create-cluster-kubeadm/)这两个文档
 
-搭建需要至少3台服务器主机，一台作为master，两台为slave节点。
-|  Node |IP             |主机名        |
+搭建需要至少3台服务器主机，一台作为master，两台为slave节点
+
+|  Node |IP             |主机名       |
 |-------|---------------|-------------|
 |Master |192.168.88.151 |zhou-k8s-0003|
 |slave  |192.168.88.249|zhou-k8s-0001 |
