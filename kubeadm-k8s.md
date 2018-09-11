@@ -33,7 +33,7 @@
 	systemctl daemon docker
 	systemctl restart docker
 
-### 安装kubeadm,kubectl,kubelet 并配置kubelet参数
+### 安装kubeadm,kubectl,kubelet 并配置master节点上kubelet使用的cgroup驱动程序
 >从google cloud下载包，安装kubeadm，kubectl,kubelet
 >
 	apt-get update && apt-get install -y apt-transport-https curl
